@@ -1,0 +1,120 @@
+/* Navbar Transparent */
+#mainNavbar {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #7c51a1, #48707f);
+    opacity: 0.7;
+    z-index: 2;
+  }
+  
+  .hero-content {
+    z-index: 3;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-btn {
+    background-color: #54bbbd;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 35px;
+    font-size: 2.5rem;
+    border: none;
+  }
+  
+  .custom-btn:hover {
+    background-color: #48a6a7;
+  }
+  
+
+  .card {
+    border: none;
+  }
+  
+  .card h5 {
+    font-size: 1.25rem;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  .card a {
+    background-color: #563d7c;
+    border-color: #563d7c;
+  }
+
+  .card .cardAct {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card .cardAct .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.footer .partners {
+    background-color: #e1e3e6;
+    color: #333;
+  }
+  
+  .footer .newsletter {
+    background-color: #5abdc1;
+  }
+  
+  .footer .info {
+    background-color: #4e3797;
+  }
+  
+  .footer .newsletter input {
+    border-radius: 0;
+  }
+  
+  .footer .newsletter button {
+    background-color: #54bbbd;
+    color: white;
+    border: none;
+  }
+  
